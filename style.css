@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+}
+
+/* Aqui Começa a header  */
+header{
+    /* border: 2px solid blue ; */
+    position: relative;
+    width: 100%;
+    height: 586px;
+}
+.sec-header{
+    /* border: 2px solid rgb(255, 0, 255); */
+    width: 100%;
+    height: 587px;
+    position: relative;
+
+}
+.star-uo-topo{
+    /* border: 2px solid green; */
+    width: 100%;
+    height: 740px;
+    background-image: url("img/star\ uó\ topo.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.star-war{
+    /* border: 2px solid white; */
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 90px;
+    justify-content: space-between;
+    top: 315px;
+    position: relative;
+}
+.star{
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 18.5%;
+    width: 28%;
+    height: 90px;
+    background-image: url("img/star.png");
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+.wars{
+    /* border: 2px solid purple; */
+    position: absolute;
+    right: 5%;
+    width: 29%;
+    height: 90px;
+    background-image: url("img/wars.png");
+    background-size: 96%;
+    background-repeat: no-repeat;
+}
+.kylo-ren-banner-sem-fundo{
+    /* border: 2px solid #5bdaf0; */
+    width: 80%;
+    height: 730px;
+    background-image: url("img/Kylo-Ren-banner\ sem\ fundo.png");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    position: absolute;
+    top: 0px;
+    left: 133px;
+    z-index: 10;
+}
+.grupo4{
+    /* border: 2px solid yellow; */
+    position: absolute;
+    left: 80vw;
+    top: 445px;
+    width: 13%;
+    height: 130px;
+    background-image: url("img/Grupo\ 4.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+}
+.grupo-vermelho{
+    /* border: 2px solid yellow; */
+    position: relative;
+    left: 14.5vw;
+    top: -30px;
+    width: 22%;
+    height: 400px;
+    background-image: url("img/Grupo\ vermelho.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 11;
+}
+
+/* Aqui começa a main */
+main{
+    border: 2px solid blueviolet;
+    width: 100%;
+    height: 2000px;
+    position: relative;
+    
+}
+.comece-a-jogar{
+    border: 2px solid black;
+    width: 100%;
+    height: 1063px;
+    position: relative;
+}
+.sta-uo-robot{
+    border: 2px solid yellow;
+    position: absolute;
+    left: 0vw;
+    top: 0px;
+    width: 44%;
+    height: 1062px;
+    background-image: url("img/sta\ uo\ robot.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 9;
+}
+.grupo-sobre-o-jogo{
+    border: 2px solid rgb(255, 166, 0);
+    position: absolute;
+    top: 126px;
+    left: 44%;
+    width: 56%;
+    height: 249px;
+    background-image: url("img/Grupo\ sobre\ o\ jogo.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.grupo7{
+    border: solid 2px yellowgreen;
+    position: absolute;
+    top: 373px;
+    left: 44%;
+    width: 28%;
+    height: 689px;
+    /* background-image: url(img/Grupo\ 7.png);
+    background-repeat: 100%;
+    background-repeat: no-repeat; */
+}
+.rey-star-wars{
+    border: solid 2px red;
+    position: relative;
+    top:138px;
+    left: 72%;
+    width: 28.4%;
+    height: 640px;
+    background-image: url(img/rey\ star\ wars.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+.lord-sifh2{
+    border: solid 2px red;
+    position: absolute;
+    top: 470px;
+    left: 14.7%;
+    width: 47.5%;
+    height: 630px;
+    background-image: url(img/lord\ sifh\ 2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 13;
+}
+.grupo7{
+    border: solid 2px rgb(119, 0, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: end;
+    position: absolute;
+    top: 470px;
+    left: 43.7%;
+    width: 28.4%;
+    height: 640px;
+    z-index: 14;
+}
+h2{
+    font-weight: bolder;
+    font-size: 2rem;
+    padding-left: 8rem;
+}
+span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+.estrutura-de-jogo{
+    list-style: none;
+}
