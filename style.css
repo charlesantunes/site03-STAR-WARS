@@ -1,3 +1,4 @@
+@import url(//db.onlinewebfonts.com/c/cd9168a71e922508e43319424502fac4?family=Sovereign);
 *{
     margin: 0;
     padding: 0;
@@ -12,19 +13,19 @@ header{
     /* border: 2px solid blue ; */
     position: relative;
     width: 100%;
-    height: 586px;
+    height: 42.9vw;
 }
 .sec-header{
     /* border: 2px solid rgb(255, 0, 255); */
     width: 100%;
-    height: 587px;
+    height: 43vw;
     position: relative;
 
 }
 .star-uo-topo{
     /* border: 2px solid green; */
     width: 100%;
-    height: 740px;
+    height: 42.9vw;
     background-image: url("img/star\ uó\ topo.png");
     background-size: 100%;
     background-repeat: no-repeat;
@@ -35,9 +36,9 @@ header{
     display: flex;
     position: absolute;
     width: 100%;
-    height: 90px;
+    height: 6.7vw;
     justify-content: space-between;
-    top: 315px;
+    top: 23vw;
     position: relative;
 }
 .star{
@@ -63,22 +64,22 @@ header{
 .kylo-ren-banner-sem-fundo{
     /* border: 2px solid #5bdaf0; */
     width: 80%;
-    height: 730px;
+    height: 49vw;
     background-image: url("img/Kylo-Ren-banner\ sem\ fundo.png");
     background-repeat: no-repeat;
     background-size: 90%;
     position: absolute;
     top: 0px;
-    left: 133px;
+    left: 10%;
     z-index: 10;
 }
 .grupo4{
     /* border: 2px solid yellow; */
     position: absolute;
-    left: 80vw;
-    top: 445px;
+    left: 80%;
+    top: 32.5vw;
     width: 13%;
-    height: 130px;
+    height: 10vw;
     background-image: url("img/Grupo\ 4.png");
     background-size: 70%;
     background-repeat: no-repeat;
@@ -87,9 +88,9 @@ header{
     /* border: 2px solid yellow; */
     position: relative;
     left: 14.5vw;
-    top: -30px;
+    top: -2.2vw;
     width: 22%;
-    height: 400px;
+    height: 31.8vw;
     background-image: url("img/Grupo\ vermelho.png");
     background-size: 100%;
     background-repeat: no-repeat;
@@ -100,70 +101,59 @@ header{
 main{
     border: 2px solid blueviolet;
     width: 100%;
-    height: 2000px;
+    height: 435vw;
     position: relative;
+    top: 0px;;
     
 }
-.comece-a-jogar{
-    border: 2px solid black;
+.sec-jogo{
+    /* border: 2px solid black; */
     width: 100%;
-    height: 1063px;
+    height: 85vw;
     position: relative;
 }
 .sta-uo-robot{
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     position: absolute;
     left: 0vw;
     top: 0px;
     width: 44%;
-    height: 1062px;
+    height: 77.5vw;
     background-image: url("img/sta\ uo\ robot.png");
     background-size: 100%;
     background-repeat: no-repeat;
     z-index: 9;
 }
 .grupo-sobre-o-jogo{
-    border: 2px solid rgb(255, 166, 0);
+    /* border: 2px solid rgb(255, 166, 0); */
     position: absolute;
-    top: 126px;
+    top: 9vw;
     left: 44%;
     width: 56%;
-    height: 249px;
+    height: 15vw;
     background-image: url("img/Grupo\ sobre\ o\ jogo.png");
-    background-size: 100%;
+    background-size: 91%;
     background-repeat: no-repeat;
 }
-.grupo7{
-    border: solid 2px yellowgreen;
-    position: absolute;
-    top: 373px;
-    left: 44%;
-    width: 28%;
-    height: 689px;
-    /* background-image: url(img/Grupo\ 7.png);
-    background-repeat: 100%;
-    background-repeat: no-repeat; */
-}
-.rey-star-wars{
-    border: solid 2px red;
+.retangulo2 {
+    /* border: solid 2px green; */
     position: relative;
-    top:138px;
-    left: 72%;
-    width: 28.4%;
-    height: 640px;
-    background-image: url(img/rey\ star\ wars.png);
-    background-size: 80%;
-    background-repeat: no-repeat;
+    top: 3vw;
+    left: 14.7%;
+    width: 80%;
+    height: 0.3vw;
+    background-color: gray;
+    z-index: 15;
 }
 .lord-sifh2{
-    border: solid 2px red;
+    /* border: solid 2px red; */
     position: absolute;
-    top: 470px;
+    top: 41vw;
     left: 14.7%;
     width: 47.5%;
-    height: 630px;
+    height: 39.5vw;
     background-image: url(img/lord\ sifh\ 2.png);
-    background-size: 100%;
+    background-size: 85%;
     background-repeat: no-repeat;
     z-index: 13;
 }
@@ -172,22 +162,122 @@ main{
     font-family: Arial, Helvetica, sans-serif;
     text-align: end;
     position: absolute;
-    top: 470px;
+    top: 43vw;
     left: 43.7%;
     width: 28.4%;
-    height: 640px;
+    height: 37.5vw;
     z-index: 14;
 }
 h2{
     font-weight: bolder;
-    font-size: 2rem;
-    padding-left: 8rem;
+    font-size: 2vw;
+    padding-left: 13vw;
 }
 span{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    font-size: 1.2em;
+    font-size: 2.5vw;
 }
 .estrutura-de-jogo{
+    position: relative;
     list-style: none;
+    font-size: 1.4vw;
+}
+.rey-star-wars{
+    /* border: solid 2px red; */
+    position: absolute;
+    top: 43vw;
+    left: 72.1%;
+    width: 27.9%;
+    height: 37.5vw;
+    background-image: url(img/rey\ star\ wars.png);
+    background-size: 72%;
+    background-repeat: no-repeat;
+    z-index: 13;
+}
+
+.sec-atributos{
+    position: relative;
+    top: -7.5vw;
+    background-color: #2D2D2D;
+    width: 100%;
+    height: 130vw;
+}
+.p-atributos{    
+    font-family: "Sovereign","Regular";
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 2.5vw;
+    font-weight: bold;
+    position: absolute;
+    top: 10vw;
+    left: 10%;
+}
+/* .star-wars-battlefront{
+    border: solid 2px red;
+    position: absolute;
+    top: 19vw;
+    left: 7%;
+    width: 27.9%;
+    height: 15vw;
+    background-image: url(img/star-wars-battlefront.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+} */
+
+
+.img-atributo{
+    border: solid 2px red;
+    position: absolute;
+    width: 90%;
+    height: 90vw;
+    top: 16vw;
+    left: 5vw;
+    display: flex;
+}
+.star-wars-battlefront {
+    border: solid 2px rgb(230, 230, 230);
+    width: 50%;
+    height: 30vw;
+    position: relative;
+}
+.star-wars-battlefront img{
+    /* border: solid 2px white; */
+    width: 100%;
+    height: 100%;
+}
+.grafico-nave, .soldado-robo{
+    border: solid 2px white;
+    display: flex;
+    width: 25%;
+    height: 30vw;
+    flex-direction: column;
+}
+.grafico-nave img, .soldado-robo img{
+    width: 100%;
+    height: 100%;
+}
+
+.star-wars-stormtrooper{
+    width: 90%;
+    height: 60vw;
+    position: absolute;
+    top: 50vw;
+}
+.star-wars-stormtrooper img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 5vw;
+}
+.p-jogar{
+    font-family: "Sovereign", "Regular";
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 2.5vw;
+    font-weight: bold;
+    position: absolute;
+    top: 120vw;
+    left: 41%;
+    
 }
