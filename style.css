@@ -1,4 +1,5 @@
-@import url(//db.onlinewebfonts.com/c/cd9168a71e922508e43319424502fac4?family=Sovereign);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -7,7 +8,6 @@
 body{
     position: relative;
 }
-
 /* Aqui Começa a header  */
 header{
     /* border: 2px solid blue ; */
@@ -84,8 +84,17 @@ header{
     background-size: 70%;
     background-repeat: no-repeat;
 }
+
+/* Aqui começa a main */
+main{
+    border: 2px solid blueviolet;
+    width: 100%;
+    height: 241vw;
+    position: relative;
+    top: 0px;    
+}
 .grupo-vermelho{
-    /* border: 2px solid yellow; */
+     border: 2px solid yellow;
     position: relative;
     left: 14.5vw;
     top: -2.2vw;
@@ -95,16 +104,6 @@ header{
     background-size: 100%;
     background-repeat: no-repeat;
     z-index: 11;
-}
-
-/* Aqui começa a main */
-main{
-    border: 2px solid blueviolet;
-    width: 100%;
-    height: 435vw;
-    position: relative;
-    top: 0px;;
-    
 }
 .sec-jogo{
     /* border: 2px solid black; */
@@ -198,12 +197,12 @@ span{
 
 .sec-atributos{
     position: relative;
-    top: -7.5vw;
+    top: -7.9vw;
     background-color: #2D2D2D;
     width: 100%;
-    height: 130vw;
+    height: 134vw;
 }
-.p-atributos{    
+.p-atributos{
     font-family: "Sovereign","Regular";
     text-transform: uppercase;
     color: #FFFFFF;
@@ -230,7 +229,7 @@ span{
     border: solid 2px red;
     position: absolute;
     width: 90%;
-    height: 90vw;
+    height: 95vw;
     top: 16vw;
     left: 5vw;
     display: flex;
@@ -270,14 +269,588 @@ span{
     height: 100%;
     left: 5vw;
 }
+.p-normas-especiais{
+    /* border: solid 2px white; */
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    width: 45%;
+    font-size: 1vw;
+    text-align: end;
+    position: absolute;
+    top: 111vw;
+    right: 5%;
+}
 .p-jogar{
-    font-family: "Sovereign", "Regular";
+    font-family: 'sovereign-regular-regular',sans-serif;
     text-transform: uppercase;
     color: #FFFFFF;
     font-size: 2.5vw;
     font-weight: bold;
     position: absolute;
-    top: 120vw;
+    top: 122vw;
     left: 41%;
+}
+.sec-down-corre-explo{
+    position: relative;
+    top: -8vw;
+    width: 100%;
+    height: 30vw;
+}
+.capa-preta{
+    /* background-color: #FFFFFF; */
+    width: 29%;
+    height: 44vw;
+    position: relative;
+    left: 5%;
+    top: -22vw;
+}
+.capa-preta img {
+    position: absolute;
+width: 100%;
+}
+.escolha-opcao{
+    /* border: solid 2px black; */
+    position: absolute;
+    top: 2vw;
+    width: 65%;
+    height: 19vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    right: 0%;    
+}
+.download, .escolher, .explorar{
+    background-color: #FFFFFF;
+    font-family: 'sovereign-regular-regular',sans-serif;
+    width: 24%;
+    height: 16vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.number{
+    font-size: 2vw;
+}
+.barra-carregamento{
+    background-color: black;
+    width: 100%;
+    height: 3.5vw;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4vw;
+}
+.text{
+    font-size: 1vw;
+    padding: 0 17% 0 17%;
+}
+.linha{
+    background-color: black;
+    width: 35%;
+    height: 0.3vw;
+}
+
+.darth-vai-na-web{
+    border: solid 2px greenyellow;
+    position: relative;
+    width: 52%;
+    height: 44vw;
+    left: 90%;
+    top: -16%;
+}
+footer{
+    background-color: gray;
+    width: 100%;
+    height: 42vw;
+}
+.sec-footer{
+    background-color: #FF5A56;
+    position: relative;
+    width: 67%;
+    height: 40vw;
+}
+.darth-vai-na-web img{
+    /* border: solid 2px black; */
+    position: absolute;
+    width: 100%;
     
+}
+.darth-vai-na-web .msg-vai-na-web{
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    right: 5%;
+}
+.aplicativo-footer{
+    /* background-color: aqua; */
+    width: 50%;
+    height: 31vw;
+    position: relative;
+    top: -38vw;
+    left: 15%;
+    display: flex;
+    flex-direction: column;
+}
+.p-aplicativo{
+    font-family: 'sovereign-regular-regular',sans-serif;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 2vw;
+    font-weight: bold;
+    padding-bottom: 1.5vw;
+}
+.msg-aplicativo{
+    font-family: 'Open Sans',sans-serif;
+    width: 83%;
+    color: #FFFFFF;
+    font-size: 1vw;
+    padding-bottom: 1.5vw;
+}
+.store{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2vw;
+}
+.store img{
+    width: 46%;
+}
+.linha2{
+    background-color: #D74430;
+    width: 100%;
+    height: 0.3vw;
+    margin-bottom: 1vw;
+}
+.esta-uo{
+    width: 45%;
+}
+.msg-politica-internacional{
+    font-family: 'Open Sans',
+    sans-serif;
+    width: 83%;
+    color: #FFFFFF;
+    font-size: 1vw;
+    padding-top: 1.5vw;
+}
+@media(max-width: 320px){
+    main {
+        border: 2px solid blueviolet;
+        width: 100%;
+        height: 341vw;
+        position: relative;
+        top: 0px;
+    }
+    .grupo-vermelho {
+        border: 2px solid yellow;
+        position: absolute;
+        left: 32%;
+        top: 10vw;
+        width: 60%;
+        height: 90vw;
+       
+    }
+    .grupo-sobre-o-jogo {
+        border: 2px solid rgb(255, 0, 179);
+        position: absolute;
+        top: 29vw;
+        left: 18%;
+        width: 74%;
+        height: 15vw;
+        background-image: url("img/star\ wars\ frente\ de\ batalha.png");
+        background-size: 91%;
+        background-repeat: no-repeat;
+    }
+    .sta-uo-robot {
+        /* border: 2px solid yellow; */
+        position: absolute;
+        left: 0vw;
+        top: 0px;
+        width: 44%;
+        height: 10vw;
+        background-image: url("img/sta\ uo\ robot.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        z-index: 9;
+    }
+
+    .sec-jogo {
+        /* border: 2px solid black; */
+        width: 100%;
+        height: 85vw;
+        position: relative;
+    }
+    
+    .sta-uo-robot {
+        /* border: 2px solid yellow; */
+        position: absolute;
+        left: 0vw;
+        top: 0px;
+        width: 44%;
+        height: 77.5vw;
+        background-image: url("img/sta\ uo\ robot.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        z-index: 9;
+    }
+    
+    .grupo-sobre-o-jogo {
+        /* border: 2px solid rgb(255, 166, 0); */
+        position: absolute;
+        top: 59vw;
+        left: 40%;
+        width: 56%;
+        height: 31vw;
+        background-image: url("img/star\ wars\ frente\ de\ batalha.png");
+        background-size: 91%;
+        background-repeat: no-repeat;
+        z-index: 13;
+    }
+    
+    .retangulo2 {
+    border: solid 2px green;
+        position: relative;
+        top: 3vw;
+        left: 14.7%;
+        width: 80%;
+        height: 0.3vw;
+        background-color: gray;
+        z-index: 15;
+    }
+    
+    .lord-sifh2 {
+        /* border: solid 2px red; */
+        position: absolute;
+        top: 41vw;
+        left: 14.7%;
+        width: 47.5%;
+        height: 39.5vw;
+        background-image: url(img/lord\ sifh\ 2.png);
+        background-size: 85%;
+        background-repeat: no-repeat;
+        z-index: 13;
+    }
+    
+    .grupo7 {
+        border: solid 2px rgb(119, 0, 255);
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: end;
+        position: absolute;
+        top: 43vw;
+        left: 43.7%;
+        width: 28.4%;
+        height: 37.5vw;
+        z-index: 14;
+    }
+    
+    h2 {
+        font-weight: bolder;
+        font-size: 2vw;
+        padding-left: 13vw;
+    }
+    
+    span {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        font-size: 2.5vw;
+    }
+    
+    .estrutura-de-jogo {
+        position: relative;
+        list-style: none;
+        font-size: 1.4vw;
+    }
+    
+    .rey-star-wars {
+        /* border: solid 2px red; */
+        position: absolute;
+        top: 43vw;
+        left: 72.1%;
+        width: 27.9%;
+        height: 37.5vw;
+        background-image: url(img/rey\ star\ wars.png);
+        background-size: 72%;
+        background-repeat: no-repeat;
+        z-index: 13;
+    }
+    
+    .sec-atributos {
+        position: relative;
+        top: -7.9vw;
+        background-color: #2D2D2D;
+        width: 100%;
+        height: 134vw;
+    }
+    
+    .p-atributos {
+        font-family: "Sovereign", "Regular";
+        text-transform: uppercase;
+        color: #FFFFFF;
+        font-size: 2.5vw;
+        font-weight: bold;
+        position: absolute;
+        top: 10vw;
+        left: 10%;
+    }
+    
+    /* .star-wars-battlefront{
+        border: solid 2px red;
+        position: absolute;
+        top: 19vw;
+        left: 7%;
+        width: 27.9%;
+        height: 15vw;
+        background-image: url(img/star-wars-battlefront.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    } */
+    
+    
+    .img-atributo {
+        border: solid 2px red;
+        position: absolute;
+        width: 90%;
+        height: 95vw;
+        top: 16vw;
+        left: 5vw;
+        display: flex;
+    }
+    
+    .star-wars-battlefront {
+        border: solid 2px rgb(230, 230, 230);
+        width: 50%;
+        height: 30vw;
+        position: relative;
+    }
+    
+    .star-wars-battlefront img {
+        /* border: solid 2px white; */
+        width: 100%;
+        height: 100%;
+    }
+    
+    .grafico-nave,
+    .soldado-robo {
+        border: solid 2px white;
+        display: flex;
+        width: 25%;
+        height: 30vw;
+        flex-direction: column;
+    }
+    
+    .grafico-nave img,
+    .soldado-robo img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .star-wars-stormtrooper {
+        width: 90%;
+        height: 60vw;
+        position: absolute;
+        top: 50vw;
+    }
+    
+    .star-wars-stormtrooper img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 5vw;
+    }
+    
+    .p-normas-especiais {
+        /* border: solid 2px white; */
+        font-family: 'Open Sans', sans-serif;
+        color: #FFFFFF;
+        width: 45%;
+        font-size: 1vw;
+        text-align: end;
+        position: absolute;
+        top: 111vw;
+        right: 5%;
+    }
+    
+    .p-jogar {
+        font-family: 'sovereign-regular-regular', sans-serif;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        font-size: 2.5vw;
+        font-weight: bold;
+        position: absolute;
+        top: 122vw;
+        left: 41%;
+    }
+    
+    .sec-down-corre-explo {
+        position: relative;
+        top: -8vw;
+        width: 100%;
+        height: 30vw;
+    }
+    
+    .capa-preta {
+        /* background-color: #FFFFFF; */
+        width: 29%;
+        height: 44vw;
+        position: relative;
+        left: 5%;
+        top: -22vw;
+    }
+    
+    .capa-preta img {
+        position: absolute;
+        width: 100%;
+    }
+    
+    .escolha-opcao {
+        /* border: solid 2px black; */
+        position: absolute;
+        top: 2vw;
+        width: 65%;
+        height: 19vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        right: 0%;
+    }
+    
+    .download,
+    .escolher,
+    .explorar {
+        background-color: #FFFFFF;
+        font-family: 'sovereign-regular-regular', sans-serif;
+        width: 24%;
+        height: 16vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .number {
+        font-size: 2vw;
+    }
+    
+    .barra-carregamento {
+        background-color: black;
+        width: 100%;
+        height: 3.5vw;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.4vw;
+    }
+    
+    .text {
+        font-size: 1vw;
+        padding: 0 17% 0 17%;
+    }
+    
+    .linha {
+        background-color: black;
+        width: 35%;
+        height: 0.3vw;
+    }
+    
+    .darth-vai-na-web {
+        border: solid 2px greenyellow;
+        position: relative;
+        width: 52%;
+        height: 44vw;
+        left: 90%;
+        top: -16%;
+    }
+    
+    footer {
+        background-color: gray;
+        width: 100%;
+        height: 42vw;
+    }
+    
+    .sec-footer {
+        background-color: #FF5A56;
+        position: relative;
+        width: 67%;
+        height: 40vw;
+    }
+    
+    .darth-vai-na-web img {
+        /* border: solid 2px black; */
+        position: absolute;
+        width: 100%;
+    
+    }
+    
+    .darth-vai-na-web .msg-vai-na-web {
+        position: absolute;
+        bottom: 0;
+        width: 50%;
+        right: 5%;
+    }
+    
+    .aplicativo-footer {
+        /* background-color: aqua; */
+        width: 50%;
+        height: 31vw;
+        position: relative;
+        top: -38vw;
+        left: 15%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .p-aplicativo {
+        font-family: 'sovereign-regular-regular', sans-serif;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        font-size: 2vw;
+        font-weight: bold;
+        padding-bottom: 1.5vw;
+    }
+    
+    .msg-aplicativo {
+        font-family: 'Open Sans', sans-serif;
+        width: 83%;
+        color: #FFFFFF;
+        font-size: 1vw;
+        padding-bottom: 1.5vw;
+    }
+    
+    .store {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2vw;
+    }
+    
+    .store img {
+        width: 46%;
+    }
+    
+    .linha2 {
+        background-color: #D74430;
+        width: 100%;
+        height: 0.3vw;
+        margin-bottom: 1vw;
+    }
+    
+    .esta-uo {
+        width: 45%;
+    }
+    
+    .msg-politica-internacional {
+        font-family: 'Open Sans',
+            sans-serif;
+        width: 83%;
+        color: #FFFFFF;
+        font-size: 1vw;
+        padding-top: 1.5vw;
+    }
 }
