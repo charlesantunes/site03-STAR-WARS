@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-
 *{
     margin: 0;
     padding: 0;
@@ -10,22 +9,18 @@ body{
     max-width: 1400px;
     margin: 0 auto;
 }
-/* Aqui Começa a header  */
 header{
-    /* border: 2px solid blue ; */
     position: relative;
     width: 100%;
     height: 42.9vw;
 }
 .sec-header{
-    /* border: 2px solid rgb(255, 0, 255); */
     width: 100%;
     height: 43vw;
     position: relative;
 
 }
 .star-uo-topo{
-    /* border: 2px solid green; */
     width: 100%;
     height: 42.9vw;
     background-image: url("img/star\ uó\ topo.png");
@@ -34,7 +29,6 @@ header{
     position: relative;
 }
 .star-war{
-    /* border: 2px solid white; */
     display: flex;
     position: absolute;
     width: 100%;
@@ -43,7 +37,6 @@ header{
     top: 23vw;
 }
 .star{
-    /* border: 2px solid red; */
     position: absolute;
     left: 18.5%;
     width: 28%;
@@ -53,7 +46,6 @@ header{
     background-repeat: no-repeat;
 }
 .wars{
-    /* border: 2px solid purple; */
     position: absolute;
     right: 5%;
     width: 29%;
@@ -63,7 +55,6 @@ header{
     background-repeat: no-repeat;
 }
 .kylo-ren-banner-sem-fundo{
-    /* border: 2px solid #5bdaf0; */
     width: 80%;
     height: 49vw;
     background-image: url("img/Kylo-Ren-banner\ sem\ fundo.png");
@@ -80,7 +71,6 @@ header{
     cursor: pointer;
 }
 .grupo4{
-    /* border: 2px solid yellow; */
     position: absolute;
     left: 80%;
     top: 32.5vw;
@@ -95,16 +85,13 @@ a:hover .grupo4{
     border: 2px solid black;
 }
 
-/* Aqui começa a main */
 main{
-    /* border: 2px solid blueviolet; */
     width: 100%;
     height: 241vw;
     position: relative;
     top: 0px;    
 }
 .grupo-vermelho{
-    /* border: 2px solid aqua; */
     position: relative;
     left: 14.5vw;
     top: -2.2vw;
@@ -120,7 +107,6 @@ main{
     padding: 3vw 0;
 }
 .grupo-vermelho h3{
-    /* border: solid 2px greenyellow; */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 3vw;
     padding: 0 20% 0 20%;
@@ -128,7 +114,6 @@ main{
     text-align: center;
 }
 .grupo-vermelho p{
-    /* border:  solid 2px greenyellow; */
     position: relative;
     font-size: 1vw;
     padding: 0 3%;
@@ -180,13 +165,11 @@ main{
     opacity: 1;
 }
 .sec-jogo{
-    /* border: 2px solid black; */
     width: 100%;
     height: 85vw;
     position: relative;
 }
 .sta-uo-robot{
-    /* border: 2px solid yellow; */
     position: absolute;
     left: 0vw;
     top: 0px;
@@ -198,7 +181,6 @@ main{
     z-index: 9;
 }
 .grupo-sobre-o-jogo{
-    /* border: 2px solid rgb(255, 166, 0); */
     position: absolute;
     top: 9vw;
     left: 44%;
@@ -209,7 +191,6 @@ main{
     background-repeat: no-repeat;
 }
 .sobre-o-jogo-mobile {
-    /* border: 2px solid rgb(255, 166, 0); */
     display: none;
 }
 .retangulo2 {
@@ -221,7 +202,6 @@ main{
     z-index: 15;
 }
 .lord-sifh2{
-    /* border: solid 2px red; */
     position: absolute;
     top: 41vw;
     left: 14.7%;
@@ -238,7 +218,6 @@ main{
     cursor: pointer;
 }
 .grupo7{
-    /* border: solid 2px rgb(119, 0, 255); */
     font-family: Arial, Helvetica, sans-serif;
     text-align: end;
     position: absolute;
@@ -273,7 +252,6 @@ span{
     cursor: pointer;
 }
 .rey-star-wars{
-    /* border: solid 2px red; */
     position: absolute;
     top: 43vw;
     left: 72.1%;
@@ -306,21 +284,7 @@ span{
     top: 10vw;
     left: 10%;
 }
-/* .star-wars-battlefront{
-    border: solid 2px red;
-    position: absolute;
-    top: 19vw;
-    left: 7%;
-    width: 27.9%;
-    height: 15vw;
-    background-image: url(img/star-wars-battlefront.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-} */
-
-
 .img-atributo{
-    /* border: solid 2px red; */
     position: absolute;
     width: 90%;
     height: 95vw;
@@ -329,18 +293,15 @@ span{
     display: flex;
 }
 .star-wars-battlefront {
-    /* border: solid 2px rgb(230, 230, 230); */
     width: 50%;
     height: 30vw;
     position: relative;
 }
 .star-wars-battlefront img{
-    /* border: solid 2px white; */
     width: 100%;
     height: 100%;
 }
 .grafico-nave, .soldado-robo{
-    /* border: solid 2px white; */
     display: flex;
     width: 25%;
     height: 30vw;
@@ -364,7 +325,6 @@ span{
     left: 5vw;
 }
 .p-normas-especiais{
-    /* border: solid 2px white; */
     font-family: 'Open Sans', sans-serif;
     color: #FFFFFF;
     width: 45%;
@@ -391,7 +351,6 @@ span{
     height: 30vw;
 }
 .capa-preta{
-    /* background-color: #FFFFFF; */
     width: 29%;
     height: 44vw;
     position: relative;
@@ -408,7 +367,6 @@ span{
 width: 100%;
 }
 .escolha-opcao{
-    /* border: solid 2px black; */
     position: absolute;
     top: 2vw;
     width: 65%;
@@ -473,7 +431,6 @@ width: 100%;
 }
 
 .darth-vai-na-web{
-    /* border: solid 2px greenyellow; */
     position: relative;
     width: 52%;
     height: 44vw;
@@ -481,7 +438,6 @@ width: 100%;
     top: -16%;
 }
 footer{
-    /* background-color: gray; */
     width: 100%;
     height: 42vw;
 }
@@ -492,7 +448,6 @@ footer{
     height: 40vw;
 }
 .darth-vai-na-web img{
-    /* border: solid 2px black; */
     position: absolute;
     width: 100%;
     
@@ -510,7 +465,6 @@ footer{
     transition: all 0.6s;
 }
 .aplicativo-footer{
-    /* background-color: aqua; */
     width: 50%;
     height: 31vw;
     position: relative;
@@ -574,32 +528,26 @@ footer{
         max-width: 1500px;
     }
     main {
-        border: 2px solid blueviolet;
         width: 100%;
         height: 595vw;
         position: relative;
         top: 0px;
     }
     .star-uo-topo {
-        /* border: 2px solid green; */
         background-image: none;
     }
     .star {
-        /* border: 2px solid red; */
         background-image: none;
       
     }
     .wars {
-        /* border: 2px solid purple; */
         background-image: none;
     }
     
     .kylo-ren-banner-sem-fundo {
-        /* border: 2px solid #5bdaf0; */
         background-image: none;
     }
     .grupo4 {
-        /* border: 2px solid yellow; */
         position: absolute;
         left: 80%;
         top: 39.5vw;
@@ -611,7 +559,6 @@ footer{
         text-decoration: none;
     }
     .grupo-vermelho {
-        /* border: 2px solid yellow; */
         position: absolute;
         left: 30%;
         top: 15vw;
@@ -619,7 +566,6 @@ footer{
         height: 86vw;        
     }
      .grupo-sobre-o-jogo {
-        /* border: 2px solid rgb(255, 166, 0); */
         top: 105vw;
         left: 30%;
         width: 66%;
@@ -627,7 +573,6 @@ footer{
         background-image: url("img/star\ wars\ frente\ de\ batalha.png");
     }
     .sobre-o-jogo-mobile{
-        /* border: 2px solid rgb(255, 166, 0); */
         display: block;
         position: relative;
         top: 144vw;
@@ -654,12 +599,10 @@ footer{
 
 
     .sta-uo-robot {
-        /* border: 2px solid yellow; */
         background-image: none;  
     }
 
     .sec-jogo {
-        /* border: 2px solid black; */
         width: 100%;
         height: 180vw;
         position: relative;
@@ -677,14 +620,12 @@ footer{
     }
     
     .lord-sifh2 {
-        /* border: solid 2px red; */
         top: 180vw;
         left: 3%;
         width: 47.5%;
         height: 39.5vw;
     }
     .grupo7 {
-        /* border: solid 2px rgb(119, 0, 255); */
         top: 180vw;
         left: 37%;
         width: 35%;
@@ -702,14 +643,12 @@ footer{
         padding-bottom: 0px;
     }
     .text-sobre-o-jogo-mobile{
-        /* border: solid 2px blue; */
         position: absolute;
         top: 6vw;
         text-align: end;
     }
     
     .estrutura-de-jogo {
-        /* border: solid 2px rgb(119, 0, 255); */
         font-size: 1.6vw;
         width: 100%;
         height: 22vw;
@@ -718,7 +657,6 @@ footer{
         padding: 0vw 0vw;
     }
     .rey-star-wars {
-        /* border: solid 2px red; */
         position: absolute;
         top: 180vw;
         left: 72.1%;
@@ -745,7 +683,6 @@ footer{
         font-size: 4vw;
     }    
     .img-atributo {
-        border: solid 2px red;
         position: relative;
         width: 80%;
         height: 196.5vw;
@@ -759,14 +696,12 @@ footer{
 
     }
     .star-wars-battlefront {
-        /* border: solid 2px rgb(230, 230, 230); */
         position: relative;
         width: 100%;
         height: 50vw;
     }
     
     .star-wars-battlefront img {
-        /* border: solid 2px white; */
         position: relative;
         width: 100%;
         height: 100%;
@@ -774,7 +709,6 @@ footer{
     
     .grafico-nave,
     .soldado-robo {
-        /* border: solid 2px white; */
         display: flex;
         width: 100%;
         height: 50vw;
@@ -782,7 +716,6 @@ footer{
     }
    
     .star-wars-stormtrooper{
-        border: solid 2px blue;
         width: 80%;
         height: 50vw;
         position: absolute;
@@ -822,7 +755,6 @@ footer{
     }
     
     .capa-preta {
-        border: solid 2px blue;
         width: 100%;
         height: 100vw;
         position: relative;
@@ -836,7 +768,6 @@ footer{
     }
     
     .escolha-opcao {
-        border: solid 2px black;
         position: relative;
         top: 22vw;
         width: 80%;
