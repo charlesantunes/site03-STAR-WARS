@@ -18,7 +18,6 @@ header{
     width: 100%;
     height: 43vw;
     position: relative;
-
 }
 .star-uo-topo{
     width: 100%;
@@ -131,7 +130,6 @@ main{
     margin: 0 20%;
     cursor: pointer;
 }
-
 .button span {
     position: absolute;
     top: 0.5vw;
@@ -139,7 +137,6 @@ main{
     font-size: 1.8vw;
     cursor: pointer;
 }
-
 .button span:after {
     content: '\00bb';
     position: absolute;
@@ -160,7 +157,6 @@ main{
     color: #D74430;
     opacity: 1;
 }
-
 .button:hover span:after {
     opacity: 1;
 }
@@ -292,10 +288,87 @@ span{
     left: 5vw;
     display: flex;
 }
+.msg-novos-graficos{
+    background-color: #FF5A56;
+    position: absolute;
+    opacity: 0.7;
+    color: #ffffff;
+    width: 100%;
+    height: 30vw;
+    top: -30vw;
+    transition: 1.2s all;
+}
 .star-wars-battlefront {
     width: 50%;
     height: 30vw;
     position: relative;
+    overflow: hidden;
+}
+.star-wars-battlefront:hover .msg-novos-graficos {
+    top: 0;
+}
+.linha-top-right{
+    position: absolute;
+    width: 16%;
+    height: 0.5vw;
+    background-color: #FFFFFF;
+    top: 2vw;
+    left: 6%;
+}
+.linha-top-left{
+    position: absolute;
+    width: 1%;
+    height: 7vw;
+    background-color: #FFFFFF;
+    top: 2vw;
+    left: 6%;
+}
+.linha-bottom-left {
+    position: absolute;
+    width: 1%;
+    height: 7vw;
+    background-color: #FFFFFF;
+    bottom: 2.5vw;
+    right: 6%;
+}
+.linha-bottom-right{
+    position: absolute;
+    width: 16%;
+    height: 0.5vw;
+    background-color: #FFFFFF;
+    right: 6%;
+    bottom: 2.5vw;
+}
+.msg-novos-graficos h3{
+    position: absolute;
+    top: 4vw;
+    left: 14%;
+    font-size: 3vw;
+    padding-right: 50%;
+    text-transform: uppercase;
+}
+.msg-novos-graficos p {
+    position: absolute;
+    top: 12vw;
+    left: 14%;
+    right: 14%;
+    font-size: 1.6vw;
+}
+.msg-novos-graficos button{
+    position: absolute;
+    top: 22.7vw;
+    left: 6%;
+    padding: 1vw 4vw;
+    background: none;
+    border: solid 5px #FFFFFF;
+    color: #FFFFFF;
+    font-size: 1.7vw;
+    transition: 0.6s all;
+}
+.msg-novos-graficos button:hover{
+    background-color: #D74430;
+    transform: scale(1.1);
+    cursor: pointer;
 }
 .star-wars-battlefront img{
     width: 100%;
@@ -311,7 +384,6 @@ span{
     width: 100%;
     height: 100%;
 }
-
 .star-wars-stormtrooper{
     width: 90%;
     height: 60vw;
@@ -458,7 +530,6 @@ footer{
     width: 50%;
     right: 5%;
 }
-
 .darth-vai-na-web:hover{
     transform: scale(1.2);
     cursor: pointer;
@@ -529,16 +600,15 @@ footer{
     }
     main {
         width: 100%;
-        height: 595vw;
+        height: 590vw;
         position: relative;
         top: 0px;
     }
     .star-uo-topo {
         background-image: none;
     }
-    .star {
-        background-image: none;
-      
+    .star {        
+        background-image: none;      
     }
     .wars {
         background-image: none;
@@ -563,7 +633,40 @@ footer{
         left: 30%;
         top: 15vw;
         width: 60%;
-        height: 86vw;        
+        height: 86vw;       
+    }
+    .grupo-vermelho h3 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 8vw;
+        padding: 0 20% 0 20%;
+        position: relative;
+        text-align: center;
+    }    
+    .grupo-vermelho p {
+        position: relative;
+        font-size: 3vw;
+        padding: 0 10%;
+        font-family: 'Courier New', Courier, monospace;
+        opacity: 0.5;
+    }    
+    .button {
+        border-radius: 7px;
+        padding: 4vw 14vw;
+        width: 14vw;
+        margin: 0 26%;
+    }    
+    .button span {
+        position: absolute;
+        top: 2.4vw;
+        left: 3vw;
+        font-size: 3vw;
+        text-transform: uppercase;
+    }    
+    .button span:after {
+        right: -3vw;
+    }    
+    .button:hover span:after {
+        opacity: 1;
     }
      .grupo-sobre-o-jogo {
         top: 105vw;
@@ -587,28 +690,24 @@ footer{
         text-align: end;
     }
     .linha4{
-            background-color: black;
-            position: absolute;
-            right: 0%;
-            width: 45%;
-            height: 0.7vw;            
+        background-color: black;
+        position: absolute;
+        right: 0%;
+        width: 45%;
+        height: 0.7vw;            
     }
     .text-sobre-o-jogo-mobile{
         font-size: 3.3vw;;
     }
-
-
     .sta-uo-robot {
         background-image: none;  
     }
-
     .sec-jogo {
         width: 100%;
         height: 180vw;
         position: relative;
     }
     .retangulo2 {
-        /* border: solid 2px green; */
         position: relative;
         top: 150vw;
         left: 10%;
@@ -617,8 +716,7 @@ footer{
         height: 0.3vw;
         background-color: gray;
         z-index: 15;
-    }
-    
+    }    
     .lord-sifh2 {
         top: 180vw;
         left: 3%;
@@ -646,8 +744,7 @@ footer{
         position: absolute;
         top: 6vw;
         text-align: end;
-    }
-    
+    }    
     .estrutura-de-jogo {
         font-size: 1.6vw;
         width: 100%;
@@ -666,8 +763,7 @@ footer{
         background-size: 72%;
         background-repeat: no-repeat;
         z-index: 13;
-    }
-    
+    }    
     .sec-atributos {
         position: relative;
         top: 30vw;
@@ -675,8 +771,7 @@ footer{
         width: 100%;
         height: 296vw;
         display: flex;
-    }
-    
+    }    
     .p-atributos {
         left: 43%;
         right: 43%;
@@ -700,37 +795,32 @@ footer{
         width: 100%;
         height: 50vw;
     }
-    
     .star-wars-battlefront img {
         position: relative;
         width: 100%;
         height: 100%;
-    }
-    
+    }    
     .grafico-nave,
     .soldado-robo {
         display: flex;
         width: 100%;
         height: 50vw;
         flex-direction: column;
-    }
-   
+    }   
     .star-wars-stormtrooper{
         width: 80%;
-        height: 50vw;
+        height: 51vw;
         position: absolute;
         top: 215vw;
         left: 10%;
         right: 10%;
-    }
-    
+    }    
     .star-wars-stormtrooper img {
         position: absolute;
         width: 100%;
         height: 50vw;
         left: 0;
-    }
-    
+    }    
     .p-normas-especiais {
         width: 60%;
         font-size: 2vw;
@@ -756,24 +846,144 @@ footer{
     
     .capa-preta {
         width: 100%;
-        height: 100vw;
+        height: 97vw;
         position: relative;
         top: 22vw;
         left: -26%;
-    }
-    
+        z-index: 14;
+    }    
     .capa-preta img {
         position: relative;
-        width: 100%;
-    }
-    
+        width: 119%;
+    }    
     .escolha-opcao {
         position: relative;
-        top: 22vw;
+        top: 38vw;
+        right: 15%;
         width: 80%;
-        height: 100vw;
+        height: 78vw;
         display: flex;
         flex-direction: column;
-    }   
-    
+    }
+    .download,
+    .escolher,
+    .explorar {
+        font-family: 'sovereign-regular-regular', sans-serif;
+        width: 80%;
+        height: 24vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+    }    
+    .number {
+        font-size: 5vw;
+    }    
+    .barra-carregamento {
+        background-color: black;
+        width: 100%;
+        height: 8vw;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3vw;
+        transition: all 0.6s;
+    }          
+    .text {
+        font-size: 2.7vw;
+        padding: 0 15%;
+    }
+    .text:hover {
+        font-weight: bolder;
+        padding: 0 13%;
+    }    
+    .linha {
+        background-color: black;
+        width: 35%;
+        height: 1.2vw;
+    }    
+    .linha:hover {
+        background-color: #FF5A56;
+        cursor: pointer;
+    }
+    .darth-vai-na-web {
+        position: relative;
+        width: 80%;
+        height: 45vw;
+        left: 10%;
+        top: 110vw;
+        z-index: 13;
+    }    
+    .sec-footer {
+        background-color: #FF5A56;
+        position: relative;
+        width: 100%;
+        height: 160vw;
+    }    
+    .darth-vai-na-web img {
+        position: absolute;
+        width: 100%;
+    }
+    .msg-vai-na-web {
+        right: 25%;
+        left: 25%;
+        top: 105vw;
+    }
+    .darth-vai-na-web:hover {
+        transform: scale(1.2);
+        cursor: pointer;
+        transition: all 0.6s;
+    }    
+    .aplicativo-footer {
+        width: 80%;
+        height: 12vw;
+        top: -38vw;
+        left: 10%;
+        right: 10%;
+    }    
+    .p-aplicativo {
+        font-size: 12vw;
+        text-align: center;
+    }    
+    .msg-aplicativo {
+        width: 100%;
+        color: #FFFFFF;
+        font-size: 3vw;
+        padding-bottom: 4vw;
+    }    
+    .store {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 3vw;
+    }    
+    .store img {
+        width: 46%;
+        transition: all 0.6s;
+    }    
+    .store img:hover {
+        box-shadow: 2px 2px 10px 1px #FFFFFF;
+        transform: scale(1.1);
+        cursor: pointer;
+    }    
+    .linha2 {
+        border: solid 2px #D74430;
+        width: 100%;
+        height: 0.3vw;
+        margin-bottom: 8vw;
+    }    
+    .esta-uo {
+        position: relative;
+        width: 45%;
+        left: 27%;
+        right: 27%;
+    }    
+    .msg-politica-internacional {
+        width: 100%;
+        color: #FFFFFF;
+        font-size: 3vw;
+        padding: 5vw 0;
+    }
 }
